@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/portafolioRGO/static/css/main.54b6fa2e.css",
-    "main.js": "/portafolioRGO/static/js/main.2430ef25.js",
+    "main.css": "/portafolioRGO/static/css/main.048ffaf4.css",
+    "main.js": "/portafolioRGO/static/js/main.6e6a2160.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolioRGO/static/js/787.ae0d8d37.chunk.js",
+    "static/media/Mail_icon.png": "/portafolioRGO/static/media/Mail_icon.fb68e52ceb91374022a4.png",
+    "static/media/IG_icon.png": "/portafolioRGO/static/media/IG_icon.8e408da00539cdef4629.png",
     "static/media/Profile.png": "/portafolioRGO/static/media/Profile.282816f2277b9efa8344.png",
+    "static/media/Gh_icon.png": "/portafolioRGO/static/media/Gh_icon.a3f151acbf03855fd949.png",
+    "static/media/facebook_icon.png": "/portafolioRGO/static/media/facebook_icon.b4cfe808218c7aeebda5.png",
     "index.html": "/portafolioRGO/index.html",
-    "main.54b6fa2e.css.map": "/portafolioRGO/static/css/main.54b6fa2e.css.map",
-    "main.2430ef25.js.map": "/portafolioRGO/static/js/main.2430ef25.js.map",
+    "main.048ffaf4.css.map": "/portafolioRGO/static/css/main.048ffaf4.css.map",
+    "main.6e6a2160.js.map": "/portafolioRGO/static/js/main.6e6a2160.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolioRGO/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54b6fa2e.css",
-    "static/js/main.2430ef25.js"
+    "static/css/main.048ffaf4.css",
+    "static/js/main.6e6a2160.js"
   ]
 }
