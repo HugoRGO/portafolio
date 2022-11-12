@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portafolioRGO/static/css/main.54b6fa2e.css",
+    "main.js": "/portafolioRGO/static/js/main.2430ef25.js",
+    "static/js/787.ae0d8d37.chunk.js": "/portafolioRGO/static/js/787.ae0d8d37.chunk.js",
+    "static/media/Profile.png": "/portafolioRGO/static/media/Profile.282816f2277b9efa8344.png",
+    "index.html": "/portafolioRGO/index.html",
+    "main.54b6fa2e.css.map": "/portafolioRGO/static/css/main.54b6fa2e.css.map",
+    "main.2430ef25.js.map": "/portafolioRGO/static/js/main.2430ef25.js.map",
+    "787.ae0d8d37.chunk.js.map": "/portafolioRGO/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54b6fa2e.css",
+    "static/js/main.2430ef25.js"
+  ]
+}
