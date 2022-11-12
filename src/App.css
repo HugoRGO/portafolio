@@ -42,7 +42,19 @@
 }
 
 .bg-custom1{
-  background: linear-gradient(180deg, rgb(102, 104, 145) 0%, rgba(44, 44, 119,1) 61%);
+  background: linear-gradient(180deg, rgb(70, 73, 138) 0%, rgba(44, 44, 119,1) 61%);
+}
+
+.text-color-1{
+  color: rgb(44, 44, 119);
+}
+
+.text-shadow {
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.text-shadow-2 {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
 }
 
 .btn-close {
