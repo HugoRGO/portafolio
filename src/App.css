@@ -37,6 +37,30 @@
   }
 }
 
-.text-bg-success {
+.bg-success {
   background-color: #4acaa8;
+}
+
+.bg-custom1{
+  background: linear-gradient(180deg, rgb(102, 104, 145) 0%, rgba(44, 44, 119,1) 61%);
+}
+
+.btn-close {
+  float: right;
+  font-weight: 700;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0px 0 #fff;
+  filter: alpha(opacity=20);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(44, 44, 119);
+    border-color: #ffffff00; /*Elegir los colores de los botones*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: rgb(89, 89, 113);
+    border-color: #ffffff; /*Elegir los colores de los botones*/
 }
