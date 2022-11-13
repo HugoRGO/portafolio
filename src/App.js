@@ -6,6 +6,10 @@ import FB from './assets/facebook_icon.png';
 import IG from './assets/IG_icon.png';
 import GH from './assets/Gh_icon.png';
 import Mail from './assets/Mail_icon.png';
+import P1 from './assets/P-1.png';
+import P2 from './assets/P-2.png';
+import P3 from './assets/P-3.png';
+import P4 from './assets/P-4.png';
 
 function App() {
   return (
@@ -25,18 +29,18 @@ function App() {
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body className='px-0'>
+              <Offcanvas.Body className='p-0'>
                 <Nav className="justify-content-evenly flex-grow-1">
-                  <Figure className='text-center'>
+                  <Figure className='text-center my-4'>
                     <Figure.Image
                       className='rounded-circle my-4'
                       width={180}
                       height={180}
-                      alt="171x180"
+                      alt="180x180"
                       src={Profile}
                     />
-                    <h2 className="justify-content-evenly d-flex py-2 mb-3 border-top border-light text-shadow">Hugo Rodrigo García Olmos</h2>
-                    <Figure.Caption className='my-2'>
+                    <h2 className="justify-content-evenly d-flex py-2 mb-4 mt-2 border-top border-light text-shadow">Hugo Rodrigo García Olmos</h2>
+                    <Figure.Caption className='my-2 fst-italic fs-6 text-shadow'>
                       Ingeniero Civil, entusiasta de la programación y la tecnologa.
                     </Figure.Caption>
                   </Figure>
@@ -45,12 +49,16 @@ function App() {
                   <Button href='#Logros' className="justify-content-evenly d-flex text-light py-2 border-top border-light fw-bold bg-gradient text-shadow-2">Algunos logros</Button>
                   <Button href='' className="justify-content-evenly d-flex text-light py-2 border-top border-light fw-bold bg-gradient text-shadow-2">Contacto</Button>
                 </Nav>
-                <ul className='justify-content-evenly d-flex my-4 bottom-sticky'>
-                  <a href='#'><img src={Mail}  alt="Correo-Icon" width="30" height="25" className="d-inline-block align-text-top" /></a>
-                  <a href='#'><img src={FB}  alt="Facebook-Icon" width="30" height="25" className="d-inline-block align-text-top" /></a>
-                  <a href='#'><img src={IG}  alt="IG-Icon" width="30" height="25" className="d-inline-block align-text-top" /></a>
-                  <a href='#'><img src={GH} alt="Github-Icon" width="30" height="25" className="d-inline-block align-text-top" /></a>
-                </ul>
+                <div className=''>
+                  <br/>
+                  <br/>
+                  <ul className='justify-content-evenly d-flex my-0 py-4 bottom-sticky bg-custom1'>
+                    <a href='#'><img src={Mail}  alt="Correo-Icon" width="30" height="25" className="d-inline-block align-text-top" /></a>
+                    <a href='#'><img src={FB}  alt="Facebook-Icon" width="30" height="25" className="d-inline-block align-text-top" /></a>
+                    <a href='#'><img src={IG}  alt="IG-Icon" width="30" height="25" className="d-inline-block align-text-top" /></a>
+                    <a href='#'><img src={GH} alt="Github-Icon" width="30" height="25" className="d-inline-block align-text-top" /></a>
+                  </ul>
+                </div>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
@@ -59,22 +67,24 @@ function App() {
       <main>
         <div className='container'>
           <h3 className='py-3 text-color-1 fw-bold text-shadow' id='AcercaDe'>Acerca de Mi</h3>
-          <p className='pb-4 m-0'>Mi nombre es Hugo Rodrigo García Olmos, soy Ingeniero Civil y tambien un gran entusiasta de la tecnologia, me adentre al mundo de la programación con grandes esperanzas y con ganas de seguir conociendo sobre el tema.</p>
+          <p className='pb-4 m-0 fs-5'>Mi nombre es Hugo Rodrigo García Olmos, soy Ingeniero Civil y tambien un gran entusiasta de la tecnologia, me adentre al mundo de la programación con grandes esperanzas y con ganas de seguir conociendo sobre el tema.</p>
         </div>
       </main>
       <section className='bg-custom1'>
         <div className='container'>
           <h3 className='py-3 text-light text-shadow-2' id='Cosas'>Algunas Cosas que Puedo hacer</h3>
-        <p className='pb-4 m-0 text-light'>Algunos de los conocimients que he aprendido en el camino de la programación. </p>
+        <p className='pb-4 m-0 text-light fs-5'>Algunos de los conocimients que he aprendido en el camino de la programación. </p>
         </div>
       </section>
-      <section className='container'>
+      <section className='container my-4'>
         <h3 className='my-3 text-shadow' id='Logros'>Algunos Logros Personales</h3>
-        <p className='my-4'>Estos son algunos de los proyectos que he podido completar a lo largo de mi tiempo despues de entrar en el mundo de la programación y espero puedan ser aún más. </p>
+        <p className='my-4 fs-5'>Estos son algunos de los proyectos que he podido completar a lo largo de mi tiempo despues de entrar en el mundo de la programación y espero puedan ser aún más. </p>
         <Row xs={1} md={2} className="g-4">
             <Col>
               <Card>
-                <Card.Img variant="top" src="" />
+                <div className="overlaythree text-center m-2">
+                  <a href='#' className="pseudover v2" title="Visitar"><img src={P1} className="card-img-top"  alt="Correo-Icon"/></a>
+                </div>
                 <Card.Body>
                   <Card.Title className='text-shadow'>Landing Pages</Card.Title>
                   <Card.Text>
@@ -87,7 +97,9 @@ function App() {
             </Col>
             <Col>
               <Card>
-                <Card.Img variant="top" src="" />
+                <div className="overlaythree text-center m-2">
+                  <a href='#' className="pseudover v2" title="Visitar"><img src={P2} className="card-img-top"  alt="Correo-Icon"/></a>
+                </div>
                 <Card.Body>
                   <Card.Title className='text-shadow'>Formato CRUD</Card.Title>
                   <Card.Text>
@@ -100,7 +112,9 @@ function App() {
             </Col>
             <Col>
               <Card>
-                <Card.Img variant="top" src="" />
+                <div className="overlaythree text-center m-2">
+                  <a href='#' className="pseudover v2" title="Visitar"><img src={P3} className="card-img-top"  alt="Correo-Icon"/></a>
+                </div>
                 <Card.Body>
                   <Card.Title className='text-shadow'>Dashboard</Card.Title>
                   <Card.Text>
@@ -113,7 +127,9 @@ function App() {
             </Col>
             <Col>
               <Card>
-                <Card.Img variant="top" src="" />
+                <div className="overlaythree text-center m-2">
+                  <a href='#' className="pseudover v2" title="Visitar"><img src={P4} className="card-img-top"  alt="Correo-Icon"/></a>
+                </div>
                 <Card.Body>
                   <Card.Title className='text-shadow'>App-React</Card.Title>
                   <Card.Text>
@@ -127,7 +143,7 @@ function App() {
         </Row>
       </section>
       <footer>
-      <div>
+      <div className='bg-custom1'>
           <Container className="w-50 justify-content-center align-items-center">
               <div className="row justify-content-center align-items-center py-2">
                 <div className="col-lg d-flex justify-content-center align-items-center">
