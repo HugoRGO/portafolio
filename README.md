@@ -1,3 +1,13 @@
+###  Repositorio de Portafolio HRGO 📄
+
+***Descripción:***
+
+En este proyecto se intenta desarrollar un portafolio de caracter profecional integrando principalmente REACT, el proyecto pretende ser una forma de presentacion para el campo laboral explicando algunos haspectos de nuestra persona y trayectoria academica/laboral .
+
+- Para visitar el portafolio [*Aqui*.](https://hugorgo.github.io/portafolioRGO/)
+
+Gracias por visitar. 😊
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
